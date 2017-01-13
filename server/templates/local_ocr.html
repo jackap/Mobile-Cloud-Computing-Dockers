@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+{% block body %}
+{% block code %}
+<script src={{ url_for('static', filename='local_ocr_script.js') }}></script>
+{% endblock %}
+<div class="card-panel light-green lighten-3">
+<div id="user_id" value={{session.user_id}}></div>
+<div class="container">
+  <h2>Locally OCR Images</h2>
+  
+  <div id="progress-bar">
+
+  </div>
+  
+    <form id="upload-file" method="post" enctype="multipart/form-data" class="col s12">    
+    <div class="row">
+        <label>Choose files to OCR</label>
+        <div class="file-field input-field">
+            <div class="btn">
+                 <span>Browse</span>
+                  <input type="file" name="file[]" id="fileInput" multiple="">
+             </div>
+              <div class="file-path-wrapper">
+                 <input class="file-path validate" type="text" placeholder="Upload multiple files" accept="image/*;capture=camera">
+            </div>
+        </div>  
+
+    </div>
+	</form>
+  <button id="upload-file-btn" class="btn-large waves-effect waves-light blue">OCR!</button> 
+  <div id="file-content"></div>
+</div>
+</div>
+
+{% endblock %}

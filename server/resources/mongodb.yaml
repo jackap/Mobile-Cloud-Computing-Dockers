@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: mongo-database
+  labels:
+    name: mongo-database
+spec:
+  containers:
+    - image: mongo
+      name: mongo-database
+      ports:
+        - containerPort: 27017
+          name: mongo-port
+      volumeMounts:
+      - mountPath: /data/db
+        name: mongo-data-vol
+  volumes:
+  - name: mongo-data-vol
+    hostPath:
+      # directory location on host
+      path: /tmp

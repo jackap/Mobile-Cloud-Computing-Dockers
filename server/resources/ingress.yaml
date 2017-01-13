@@ -1,0 +1,10 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: ssl-terminator
+spec:
+  tls:
+    - secretName: certificates
+  backend:
+    serviceName: ocr
+    servicePort: 80

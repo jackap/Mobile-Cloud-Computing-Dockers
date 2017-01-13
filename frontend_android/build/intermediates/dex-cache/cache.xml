@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/jacopobufalino/OCR/frontend_android/app/libs/java-json.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="edad9c5de6fb8df07c535a47045956026011ffa3">
+        <dex dex="/Users/jacopobufalino/OCR/frontend_android/app/build/intermediates/transforms/dex/debug/folders/1000/2/java-json_69fc660cd1ef9f37bbd65c81542d3f5f617044b1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jacopobufalino/OCR/frontend_android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/Users/jacopobufalino/OCR/frontend_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.0.0_2ec251be74cb5c4dba21b867eb4a4fc96e451e1d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jacopobufalino/OCR/frontend_android/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c61641e333fa88da21758bab8cc28ee16604b05f">
+        <dex dex="/Users/jacopobufalino/OCR/frontend_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-9.8.0_2f5000bb102a9916c0d93f61581762ffc613f666/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jacopobufalino/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="/Users/jacopobufalino/OCR/frontend_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.0.0_7b6401288e56a26222ce4facd20af82a5324c201/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jacopobufalino/OCR/frontend_android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e3234cd25e23069abd48ecd2117bc0e8011bf45a">
+        <dex dex="/Users/jacopobufalino/OCR/frontend_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-9.8.0_bec2fe366a4b48fe364e2e978e6dcf0479b425d5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jacopobufalino/.gradle/caches/modules-2/files-2.1/com.loopj.android/android-async-http/1.4.9/386a4339ffe52d5d63e80f9bed8d2b1d1a418249/android-async-http-1.4.9.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="386a4339ffe52d5d63e80f9bed8d2b1d1a418249">
+        <dex dex="/Users/jacopobufalino/OCR/frontend_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/android-async-http-1.4.9_d6f6727849132c2ca6fe492ce85df1b8f307a228/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jacopobufalino/OCR/frontend_android/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="b85a030b5202b77cdaad687cc3fd51a313edc314">
+        <dex dex="/Users/jacopobufalino/OCR/frontend_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_0e21b8cd30d173ae0b05f03806e61a436187176c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jacopobufalino/OCR/frontend_android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
+        <dex dex="/Users/jacopobufalino/OCR/frontend_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.8.0_10dc443e799b447c8c144a4a346b3f333bbb008d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jacopobufalino/.gradle/caches/modules-2/files-2.1/cz.msebera.android/httpclient/4.3.6/526a9f794eab830eae4f23a62c572878b3f491ab/httpclient-4.3.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="526a9f794eab830eae4f23a62c572878b3f491ab">
+        <dex dex="/Users/jacopobufalino/OCR/frontend_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/httpclient-4.3.6_967be28347c61a5d9bb0559b9e51d6ec185de305/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jacopobufalino/OCR/frontend_android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/jacopobufalino/OCR/frontend_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.4.0_7e5c4e7ca377e35c1ae4762a18466cd675f69044/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jacopobufalino/OCR/frontend_android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/jacopobufalino/OCR/frontend_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.4.0_520758c74dabdf336e32e14fd1dcd5a96af46af0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jacopobufalino/OCR/frontend_android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/Users/jacopobufalino/OCR/frontend_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.4.0_dd92df74ede8e78475c8c00031e395dac5309173/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jacopobufalino/OCR/frontend_android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/Users/jacopobufalino/OCR/frontend_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_a7cda693467a96acf4b4699cb972d966a28203db/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jacopobufalino/OCR/frontend_android/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="/Users/jacopobufalino/OCR/frontend_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.4.0_cd13beca5158db159da2f1a2d55c294b36398204/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jacopobufalino/OCR/frontend_android/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="94bdbcd64a5c6853bf45b7bbe383cfe337687340">
+        <dex dex="/Users/jacopobufalino/OCR/frontend_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_da5e26abb28c6fd1bcf472e4255090b37698a977/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jacopobufalino/OCR/frontend_android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/jacopobufalino/OCR/frontend_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_7e48c70e6b53428f5c1153cc7d8a467761c31bf6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jacopobufalino/OCR/frontend_android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
+        <dex dex="/Users/jacopobufalino/OCR/frontend_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.8.0_18e9322537f27a2ad0b7b95bf4c9fa26cf6855e8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jacopobufalino/OCR/frontend_android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="7e92aadd0697922316d1395c1887a23aebec640a">
+        <dex dex="/Users/jacopobufalino/OCR/frontend_android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-9.8.0_fb3c05919ef8971698407b117b52c359039adc13/classes.dex" />
+    </item>
+
+</items>

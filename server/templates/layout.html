@@ -1,0 +1,56 @@
+<!doctype html>
+<title>OCR Application</title>
+<style>
+body {
+    background-color: #93B874;
+}
+</style>
+<link rel=stylesheet type=text/css href="{{ url_for('static', filename='materialize/css/materialize.min.css') }}">
+
+<script src={{ url_for('static', filename='jquery-3.1.1.min.js') }}></script>
+<script src={{ url_for('static', filename='jquery.base64.min.js') }}></script>
+<script src={{ url_for('static', filename='materialize/js/materialize.min.js') }}></script>
+<script src={{ url_for('static', filename='utils.js') }}></script>
+<script src={{ url_for('static', filename='tesseract/tesseract.js') }}></script>
+<script src={{ url_for('static', filename='colorbox/jquery.colorbox-min.js') }}></script>
+<div class="container">
+  <nav>
+    <div class="nav-wrapper  deep-orange">
+      
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <a href="#" class="brand-logo left">OCR Application</a>
+      </ul>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+          
+          {% if not session.user_id %}
+          <li><a class="link" href="{{ url_for('login') }}">log in</a></li>
+
+          {% else %}
+          <li><a href="{{ url_for('remote_ocr') }}">Remote OCR Images</a></li>
+          <li><a href="{{ url_for('local_ocr') }}">Locally OCR Images</a></li>
+          <li><a href="{{ url_for('benchmark') }}">Benchmark</a></li>
+          <li><a href="{{ url_for('history', user=session.user_id) }}">History</a></li>
+          <li><a href="{{ url_for('logout') }}">log out</a></li>
+          {% endif %}
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+          {% if not session.user_id %}
+          <li><a class="link" href="{{ url_for('login') }}">log in</a></li>
+          {% else %}
+          <li><a href="{{ url_for('remote_ocr') }}">Remote OCR Images</a></li>
+          <li><a href="{{ url_for('local_ocr') }}">Locally OCR Images</a></li>
+          <li><a href="{{ url_for('benchmark') }}">Benchmark</a></li>
+          <li><a href="{{ url_for('history', user=session.user_id) }}">History</a></li>
+          <li><a href="{{ url_for('logout') }}">log out</a></li>
+          {% endif %}
+      </ul>
+
+
+    </div>
+  </nav>
+  {% for message in get_flashed_messages() %}
+    <div class=flash>{{ message }}</div>
+  {% endfor %}
+  {% block body %}{% endblock %}
+</div>

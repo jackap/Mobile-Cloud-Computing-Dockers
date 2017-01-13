@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: ocr-server
+  labels:
+    name: ocr-server
+spec:
+  containers:
+    - resources:
+        limits:
+          cpu: 0.5
+      image: gcr.io/mcc-2016-g01-p2/server:v12
+      name: ocr-server
+      ports:
+        - containerPort: 80
+          name: ocr-server-port
+
+      env:
+      - name: FLASK_DEBUG
+        value: "1"
+
+      command: ["python", "/usr/src/server/server.py"]

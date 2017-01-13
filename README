@@ -1,0 +1,13 @@
+To start the app locally go to server/ and run:
+$ docker build -t "server" .
+After that run:
+$ make start_dev
+Which will start mongodb and the server backend as local docker container
+To run the app in google container engine type:
+$ make run
+
+The web frontend is in the server folder as well
+
+---------------
+
+For the android part you just need to open the project using visual studio.

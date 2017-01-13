@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mcc.ocr.MainActivity">
+
+    <ProgressBar
+        android:id="@+id/main_progress"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/main_page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin" >
+        <TextView
+            android:text="WELCOME TO THE OCR APPLICATION!"
+            android:layout_width="wrap_content"
+            android:id="@+id/infoTextMain"
+            tools:text="Select one option"
+            android:layout_height="100px"
+            android:paddingTop="25px"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="38dp"
+            android:layout_marginBottom="18dp"/>
+
+        <Button
+            android:text="process remotely"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnRemote"
+            android:layout_width="200dp"
+            android:layout_below="@+id/infoTextMain"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/btnLocal"
+            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:layout_marginTop="21dp"
+            android:text="Process Locally"
+            android:layout_below="@+id/btnRemote"
+            android:layout_alignStart="@+id/btnRemote" />
+
+        <Button
+            android:text="History"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnBench"
+            android:layout_marginTop="21dp"
+            android:id="@+id/history"
+            android:layout_alignStart="@+id/btnBench"
+            android:layout_alignEnd="@+id/btnBench" />
+
+        <Button
+            android:layout_height="wrap_content"
+            android:id="@+id/btnBench"
+            android:layout_width="200dp"
+            android:text="compute benchmark"
+            android:layout_marginTop="21dp"
+            android:layout_below="@+id/btnLocal"
+            android:layout_alignStart="@+id/btnLocal" />
+
+        <Switch
+            android:text="Choose photos   \nfrom Album"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sw"
+            android:layout_marginEnd="26dp"
+            android:layout_below="@+id/history"
+            android:layout_alignEnd="@+id/infoTextMain"
+            android:layout_marginTop="21dp" />
+    </RelativeLayout>
+
+</LinearLayout>
